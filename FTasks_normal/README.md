@@ -5,7 +5,7 @@ Le lien du localhost sera donné dans la console ainsi que le numéro de port
 
 Tache effectué:
 Je n'ai pas reussi à faire ce qui était demandé en TP, malgré de nombreuses heures passées sur le projet
-J'ai donc regardé énormement de tuto pour améliorer mon projet, demandé un des connaissances qui travail dans le WEB,
+J'ai donc regardé énormement de tuto pour améliorer mon projet, demandé à des connaissances qui travail dans le WEB,
 Afin de fournir des options bnus pour compenser ce manque,
 Vous trouverez dans cette Appli:
 
