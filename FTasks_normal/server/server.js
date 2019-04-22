@@ -93,6 +93,6 @@ app.post('/setStatusTask', function( requete, response ) {
 });
 
 
-app.listen(PORT);
-
-console.log('Serveur running on port ' + PORT );
+app.listen(PORT,"0.0.0.0", function(){
+    console.log('Serveur running on port ' + PORT );
+ });
