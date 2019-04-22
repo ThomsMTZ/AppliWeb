@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="fr">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pictures/icon.png" />
+    <base href="#/" />
+    
+    <title>Appli Web</title>
+
+    <!-- Police de caractère : Reenie Beanie -->
+    <link href='https://fonts.googleapis.com/css?family=Reenie Beanie' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!-- Angular Extra ngRoute -->
+    <script src="https://code.angularjs.org/1.6.9/angular-route.min.js"></script>
+
+    <!-- Mon JS -->
+    <script src="./js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    
+  </head>
+
+  <body ng-app="FTasks">
+
+    <div ng-view class="content">    
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,39 @@
+/* ------- ATTRIBUTS ------- */
+
+nav{
+  background-image:url(../pictures/witchhome.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+/* ------- CLASSES ------- */
+
+.content{
+    padding-top: 5.5%;
+}
+
+.navbar-inverse .navbar-nav>li{
+    color: rgba(254,240,53,1);
+}
+
+.navbar-inverse .navbar-nav>li:hover{
+    background-color: rgba(254,240,53,1);
+    color: black;
+}
+
+.input-group{
+    padding-top: 1em;
+}
+
+.navbar-nav>li{
+    padding: 1.5em;
+}
+
+/* ------- ID ------- */
+
+#logo{
+    margin-top: 5px;
+    height: 4em;
+}
+

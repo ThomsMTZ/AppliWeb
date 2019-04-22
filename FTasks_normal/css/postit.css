@@ -1,0 +1,43 @@
+/* ------- ATTRIBUTS ------- */
+
+/* ------- CLASSES ------- */
+
+.postit {
+   
+    background: #ffff88;
+
+    height:10em;
+    padding-top:1%;
+    border:2px solid #E8E8E8;  
+    border-bottom-right-radius: 60px 7px;
+
+    text-align:center;   
+    font-family: 'Reenie Beanie'!important;   
+    font-size:32px;  
+    line-height: 1;
+}
+
+.postitDone{
+    background: lightgray;
+}
+
+.postit textarea{
+    background: #ffff88;
+    text-align: center;
+}
+
+.postit h2{
+    font-weight: bold;
+}
+
+.deletePostit{
+    color: red;
+    font-size: 0.5em;
+}
+
+.checkPostit{
+    color: green;
+    font-size: 0.5em;
+}
+
+/* ------- ID ------- */

@@ -1,0 +1,64 @@
+/* ------- ATTRIBUTS ------- */
+
+body{
+  background-image:url(../pictures/witchback.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: auto;
+  
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+a{
+    text-shadow: -1px 0 rgba(254,240,53,1), 0 1px rgba(254,240,53,1), 1px 0 rgba(254,240,53,1), 0 -1px rgba(254,240,53,1)
+}
+
+/* ------- CLASSES ------- */
+
+
+.form-signin {
+  max-width: 30em;
+  padding: 0em 2em 2em;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 0.2em solid black;  
+}
+
+input[type="text"] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.checkbox{
+    margin-bottom: 1em;
+    margin-left: 2em;
+    font-weight: normal;
+}
+
+.btn{
+    background-color:  rgba(254,240,53,1);
+    border: 0.1em solid black;  
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color: rgba(254,240,53,1);
+}
+
+/* ------- ID ------- */
+
+#logoLogin{
+    text-align: center;
+    height: 11em;
+}
